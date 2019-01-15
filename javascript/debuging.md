@@ -34,6 +34,6 @@ console.log(nama !== "naufal") // log: false
 
 saat kita menjalankan file javascript tersebut, maka yang muncul adalah seperti gambar dibawah ini
 
-![Console 1](./images/console-1.png)
+![Console 1](./images/web-console-1.png)
 
 Nah dengan web console kita bisa melihat perubahan-perubahan pada variabel yang ada. Sehingga kita bisa tau letak kesalahan jika sewaktu-waktu aplikasi kita mengalami error. Pada kasus-kasus umum, `console.log()` digunakan untuk melihat hasil response dari `ajax` ke server, melihat props pada component, melihat state pada component, dll.
