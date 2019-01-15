@@ -22,9 +22,9 @@ Gimana sih cara pakainya? apa aja sih argumen yang diterima oleh method tersebut
 
 ![Syntax Info](./images/metode-tipe-data/syntax.png)
 
-Jika dilihat dari gambar diatas, bisa disimpulkan jika method `concat` ini menerima banyak argumen dan argumennya berbentuk string. mulai dari string 1 sampai string ke - n (tak berbatas). dan di method tersebut akan mengembalikan (`return`) nilai yang berupa string hasil dari penggabungan (concat).
+Jika dilihat dari gambar diatas, bisa disimpulkan jika method `concat` ini menerima banyak argumen dan argumennya berbentuk string. Mulai dari string 1 sampai string ke - n (tak berbatas) dan di method tersebut akan mengembalikan (`return`) nilai yang berupa string hasil dari penggabungan (concat).
 
-Contoh Penggunaan:
+Contoh penggunaan:
 
 ```javascript
 let a = "a"
@@ -37,7 +37,6 @@ console.log(gabungan) // log: "abcd"
 ```
 
 Mari lanjutkan melihat sekilas contoh-contoh method bawaan yang ada pada tiap tipe data.
-
 
 ## String
 `toLowerCase`, `toUpperCase`, `split`, `replace`, [dan lain-lain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods).
@@ -60,11 +59,8 @@ console.log(stringReplace) // log: "NOUFOL"
 
 > Refs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String 
 
-
-
 ## Number 
 `toFixed`, `toString`, [dan lain-lain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods). 
-
 
 ```javascript
 let angkaBiasa = 25
@@ -78,8 +74,6 @@ console.log(angkaString) // log: "25"
 ```
 
 > Refs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number 
-
-
 
 ## Array 
 `push`, `splice`, `forEach`, `map`, dll.
