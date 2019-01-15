@@ -143,7 +143,8 @@ mobilku.methodBiasa() // log: Aktif bila dipanggil
 ```
 
 ## this
-context `this` adalah salah satu bab yang harusnya dibahas lebih dalam. tapi untuk saat ini, teman-teman cukup perlu tahu bahwa `this` berfungsi untuk mengakses keseluruhan yang ada pada class. Entah itu sebuah `property` maupun `method`.
+
+Context `this` adalah salah satu bab yang harusnya dibahas lebih dalam. Tapi untuk saat ini, teman-teman cukup perlu tahu bahwa `this` berfungsi untuk mengakses keseluruhan yang ada pada class. Entah itu sebuah `property` maupun `method`.
 
 ```javascript
 class Mobil {
@@ -250,6 +251,6 @@ anaknya.methodTambahanDariAnak() // log: Namaku dari: Induk
 anaknya.methodInduk() // log: Namaku Induk -> method dari induk tetap ada 
 ```
 
-Perhatikan contoh diatas. padahal pada kelas Anak, tidak ada property `nama` tapi `class Anak` tetap memiliki property nama yang berasal dari Induk.
+Perhatikan contoh diatas. Padahal pada kelas Anak, tidak ada property `nama` tapi `class Anak` tetap memiliki property nama yang berasal dari Induk.
 
 Perhatikan lagi pada constructor. pada saat pertama kali inisiasi, `class Induk` akan mengatakan `aku siap!` pada class `Anak` juga begitu. karena constructor dari Induk, diturunkan ke class Anak. Itu yang menyebabkan behaviour dari keduanya sama.
