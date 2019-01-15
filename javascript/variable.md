@@ -148,6 +148,7 @@ let merk = "Esemka"
 
 function cekBahanBakarAwal() {
   let jenisBahanBakar = "Solar"
+  console.log(jenisBahanBakar)
 }
 
 function cekBahanBakarLagi() {
@@ -159,7 +160,7 @@ cekBahanBakarLagi() // log: Dex
 cekBahanBakarAwal() // log: Solar
 ```
 
-> variable `merk` yang diatas dan variable `merk` yang dibawah, memiliki scope yang sama akan tetapi karena yang dibawah berada di dalam scope function, maka boleh mendefinisikan ulang variabel merk (dengan catatan scopenya lebih dalam)
+> Variable `merk` yang diatas dan variable `merk` yang dibawah, memiliki scope yang sama akan tetapi karena yang dibawah berada di dalam scope function, maka boleh mendefinisikan ulang variabel merk (dengan catatan scopenya lebih dalam)
 
 > **TAPI SANGAT TIDAK DISARANKAN MENGGUNAKAN NAMA VARIABEL YANG SAMA DALAM SATU SCOPE**
 

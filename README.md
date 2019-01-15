@@ -25,7 +25,7 @@ Percaya atau tidak, VSCode adalah IDE / Code Editor yang dibuat menggunakan baha
 ![Desktop App](./javascript/images/desktop-app.png)
 
 
-### Mobile App (Androi / iOS)
+### Mobile App (Android / iOS)
 Ingin membuat Aplikasi Mobile? Android? iOS? atau keduanya sekaligus? Gunakan Javascript! dengan bantuan react-native, kita bisa membuat aplikasi mobile dengan menggunakan Javascript.
 
 ![Mobile App](javascript/images/mobile-app.png)
