@@ -16,11 +16,11 @@ Lalu klik link `String | MDN`. Maka akan masuk pada laman detail `string` pada s
 
 Mari coba klik method `String.prototype.concat` dan lihat detail penjelasannya. Disana terdapat deskripsi singkat, code playground untuk mencoba-coba dan ada keterangan detail lainnya.
 
-![Detail method](/images/metode-tipe-data/detail-metode.png)
+![Detail method](./images/metode-tipe-data/detail-metode.png)
 
 Gimana sih cara pakainya? apa aja sih argumen yang diterima oleh method tersebut?. Teman-teman bisa melihat itu di bagian info syntax.
 
-![Syntax Info](/images/metode-tipe-data/syntax.png)
+![Syntax Info](./images/metode-tipe-data/syntax.png)
 
 Jika dilihat dari gambar diatas, bisa disimpulkan jika method `concat` ini menerima banyak argumen dan argumennya berbentuk string. mulai dari string 1 sampai string ke - n (tak berbatas). dan di method tersebut akan mengembalikan (`return`) nilai yang berupa string hasil dari penggabungan (concat).
 
