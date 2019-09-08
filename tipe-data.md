@@ -275,7 +275,7 @@ let users = [
 let arrBaru = users.map((user) => {
   return user.hobby
 })
-console.log(arrayBaru) // log: ["read", "write", "play"]
+console.log(arrBaru) // log: ["read", "write", "play"]
 
 
 let usersWithId = users.map((user, index) => {
