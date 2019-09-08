@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · GitBook</title>
+        <title>Iterasi · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="hello-world.html" />
+    <link rel="next" href="function.html" />
     
+    
+    <link rel="prev" href="kondisional.html" />
     
 
     </head>
@@ -87,7 +89,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -165,7 +167,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="iterasi.html">
+        <li class="chapter active" data-level="1.7" data-path="iterasi.html">
             
                 <a href="iterasi.html">
             
@@ -286,7 +288,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." >Iterasi</a>
     </h1>
 </div>
 
@@ -301,35 +303,117 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="javascript-sabuk-putih">Javascript Sabuk Putih</h1>
+                                <h1 id="iterasi">Iterasi</h1>
+<p>Iterasi adalah sebuah sebuah aksi untuk melakukan eksekusi blok code secara berulang hingga terpenuhi suatu syarat tertentu. Dalam javascript ada banyak keyword yang digunakan untuk melakukan iterasi, beberapa diantaranya adalah <code>for</code>, <code>while</code>, dan <code>do while</code>.</p>
+<h2 id="for">For</h2>
+<p><code>for</code> adalah sintaks yang paling sering digunakan untuk melakukan iterasi manual. Format penulisannya adalah sebagai berikut:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">for</span> (definsi variabel awal;   syarat;   pengolahan variabel awal) {
+  <span class="hljs-comment">// Blok Code yang dijalankan saat iterasi berjalan</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt;= <span class="hljs-number">5</span>; i++) {
+  <span class="hljs-built_in">console</span>.log(i)
+}
+
+<span class="hljs-comment">/*
+  log: 
+    0
+    1
+    2
+    3
+    4
+    5
+*/</span>
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">1</span>; i &lt;= <span class="hljs-number">5</span>; i += <span class="hljs-number">2</span>) {
+  <span class="hljs-built_in">console</span>.log(i)
+}
+
+<span class="hljs-comment">/*
+  log: 
+    1
+    3
+    5
+*/</span>
+</code></pre>
 <blockquote>
-<p>&quot;<em>Fundametal dahulu... baru React / Vue / Angular kemudian...</em>&quot;</p>
+<p>Iterasi bertingkat</p>
 </blockquote>
-<h2 id="motivasi">Motivasi</h2>
-<p>Engineer Javascript adalah salah satu profesi yang paling dicari akhir-akhir ini. Ini terbukti banyak orang yang mengeluhkan bahwa sulit mencari Engineer dengan skill yang mahir. Sayangnya, resource pembelajaran bahasa pemrograman Javascript berbahasa Indonesia masih terbilang sedikit. Ini yang membuat perkembangan talent-talent baru menjadi lamban.</p>
-<p>Terkadang kita terlalu fokus membahas topik-topik intermediate hingga advance. Sampai lupa bahwa masih banyak teman-teman kita yang ingin belajar mulai dari awal (banget). Dan bingung harus mulai dari mana.</p>
-<p>Walaupun sudah banyak referensi pembelajaran yang bisa di searching di google. Bahasa dan &quot;kemahiran browsing&quot; masih menjadi kendala utama. Semoga mini ebook ini bisa menjadi salah satu modal awal untuk teman-teman yang ingin memulai belajar dan menekuni Javascript.</p>
-<h2 id="apa-saja-yang-bisa-dibuat-dengan-javascript">Apa saja yang bisa dibuat dengan Javascript?</h2>
-<h3 id="web-app">Web App</h3>
-<p>Fungsi utama Javascript adalah membuat laman web menjadi lebih interaktif. Inilah sebab awal mula Javascript dibuat dan digunakan.</p>
-<p><img src="images/web-app.png" alt="Web App"></p>
-<h3 id="desktop-app">Desktop App</h3>
-<p>Percaya atau tidak, VSCode adalah IDE / Code Editor yang dibuat menggunakan bahasa Javascript! VSCode adalah salah satu Code Editor yang paling ringan dan nyaman digunakan.</p>
-<p><img src="images/desktop-app.png" alt="Desktop App"></p>
-<h3 id="mobile-app-android--ios">Mobile App (Android / iOS)</h3>
-<p>Ingin membuat Aplikasi Mobile? Android? iOS? atau keduanya sekaligus? Gunakan Javascript! dengan bantuan react-native, kita bisa membuat aplikasi mobile dengan menggunakan Javascript.</p>
-<p><img src="images/mobile-app.png" alt="Mobile App"></p>
-<h3 id="server-side-node-js">Server Side (Node JS)</h3>
-<p>Tidak hanya di klien, Javascript juga bisa dijalankan pada sisi server. Node JS adalah engine yang memungkinkan kita sebagai backend untuk menyediakan layanan / service rendering ataupun REST API dengan menggunakan bahasa Javascript!</p>
-<blockquote>
-<p>&quot;Satu Bahasa Untuk Semua....&quot;</p>
-</blockquote>
-<h2 id="gimana-masih-mau-menunda-belajar">Gimana? masih mau menunda belajar?</h2>
-<p><a href="javascript/hello-world.md">Mulai Belajar Disini</a></p>
-<h2 id="credits">Credits</h2>
-<p>Ebook ini dibuat oleh <strong>Muhammad Naufal Rabbani</strong>. Sangat mengharapkan  pertanyaan, kritik dan saran. Silahkan drop email di <a href="mailto:bosnaufalemail@gmail.com" target="_blank">bosnaufalemail@gmail.com</a> atau hubungi langsung di telegram <a href="https://t.me/BosNaufal" target="_blank">@BosNaufal</a> atau <a href="https://facebook.com/BosNaufalAccount" target="_blank">facebook</a></p>
-<p>Semoga bisa bermanfaat dan menjadi modal awal untuk belajar React / Vue / Angular ataupun Node JS. Jangan segan untuk membagikan ebook ini....</p>
-<p>Jadikan resource ini bermanfaat tanpa melanggar hak cipta. Ebook ini berlisensi <a href="https://creativecommons.org/licenses/by-nc/3.0/" target="_blank">Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)</a></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Untuk membuat barisan bintang...</span>
+
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">4</span>; i++) {
+  <span class="hljs-keyword">let</span> baris = <span class="hljs-string">&quot;&quot;</span>
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> k = i; k &lt; <span class="hljs-number">4</span>; k++) {
+    baris += <span class="hljs-string">&quot;*&quot;</span>
+  }
+  <span class="hljs-built_in">console</span>.log(baris)
+}
+
+<span class="hljs-comment">/*
+  log: 
+    ****
+    ***
+    **
+    *
+*/</span>
+</code></pre>
+<p><img src="images/iterasi/bintang.png" alt="Barisan Bintang"></p>
+<h2 id="while">While</h2>
+<p><code>while</code> secara garis besar sama dengan <code>for</code> hanya saja syarat dari iterasi diatur secara manual. Berikut format penulisannya.</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">while</span> (syarat) {
+ <span class="hljs-comment">// blok kode yang dijalankan saat iterasi</span>
+}
+</code></pre>
+<p>Semisal ingin menampilkan deretan angka dari x sampai y</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> batasAwal = <span class="hljs-number">5</span>
+<span class="hljs-keyword">const</span> batasAkhir = <span class="hljs-number">10</span>
+<span class="hljs-keyword">let</span> angkaSaatIni = batasAwal
+
+<span class="hljs-keyword">while</span> (angkaSaatIni &lt;= batasAkhir) {
+  <span class="hljs-built_in">console</span>.log(angkaSaatIni)  
+
+  <span class="hljs-comment">// Jangan lupa ini</span>
+  angkaSaatIni++
+}
+
+<span class="hljs-comment">/*
+  log: 
+    5
+    6
+    7
+    8
+    9
+    10
+*/</span>
+</code></pre>
+<h2 id="do-while">Do While</h2>
+<p><code>do while</code> adalah bentuk lain penulisan <code>while</code>. Jadi sebenarnya antara <code>while</code> dan <code>do while</code> sama saja, penulisannya yang berbeda.</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">do</span> {
+  <span class="hljs-comment">// blok kode yang dijalankan saat iterasi</span>
+} <span class="hljs-keyword">while</span> (syarat)
+</code></pre>
+<p>Semisal ingin menampilkan deretan angka dari x sampai y</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> batasAwal = <span class="hljs-number">5</span>
+<span class="hljs-keyword">const</span> batasAkhir = <span class="hljs-number">10</span>
+<span class="hljs-keyword">let</span> angkaSaatIni = batasAwal
+
+<span class="hljs-keyword">do</span> {
+  <span class="hljs-built_in">console</span>.log(angkaSaatIni)  
+
+  <span class="hljs-comment">// Jangan lupa ini</span>
+  angkaSaatIni++
+} <span class="hljs-keyword">while</span> (angkaSaatIni &lt;= batasAkhir)
+
+<span class="hljs-comment">/*
+  log: 
+    5
+    6
+    7
+    8
+    9
+    10
+*/</span>
+</code></pre>
 
                                 
                                 </section>
@@ -357,8 +441,12 @@
 
             
                 
+                <a href="kondisional.html" class="navigation navigation-prev " aria-label="Previous page: Kondisional">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="hello-world.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Hello World">
+                
+                <a href="function.html" class="navigation navigation-next " aria-label="Next page: Function">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -369,7 +457,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Hello World","level":"1.2","depth":1,"path":"hello-world.md","ref":"hello-world.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-09-08T11:37:07.853Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T11:38:41.283Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Iterasi","level":"1.7","depth":1,"next":{"title":"Function","level":"1.8","depth":1,"path":"function.md","ref":"function.md","articles":[]},"previous":{"title":"Kondisional","level":"1.6","depth":1,"path":"kondisional.md","ref":"kondisional.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"iterasi.md","mtime":"2019-09-08T11:32:29.244Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T11:38:41.283Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
