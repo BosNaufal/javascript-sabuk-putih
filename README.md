@@ -16,19 +16,19 @@ Walaupun sudah banyak referensi pembelajaran yang bisa di searching di google. B
 ### Web App
 Fungsi utama Javascript adalah membuat laman web menjadi lebih interaktif. Inilah sebab awal mula Javascript dibuat dan digunakan.
 
-![Web App](./javascript/images/web-app.png)
+![Web App](./images/web-app.png)
 
 
 ### Desktop App
 Percaya atau tidak, VSCode adalah IDE / Code Editor yang dibuat menggunakan bahasa Javascript! VSCode adalah salah satu Code Editor yang paling ringan dan nyaman digunakan.
 
-![Desktop App](./javascript/images/desktop-app.png)
+![Desktop App](./images/desktop-app.png)
 
 
 ### Mobile App (Android / iOS)
 Ingin membuat Aplikasi Mobile? Android? iOS? atau keduanya sekaligus? Gunakan Javascript! dengan bantuan react-native, kita bisa membuat aplikasi mobile dengan menggunakan Javascript.
 
-![Mobile App](javascript/images/mobile-app.png)
+![Mobile App](./images/mobile-app.png)
 
 
 ### Server Side (Node JS)
