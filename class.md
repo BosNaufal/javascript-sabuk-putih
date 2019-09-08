@@ -4,7 +4,7 @@ Javascript lebih identik dengan functional programing. Tapi bukan berarti di Jav
 
 ## Class
 
-`class` adalah gambaran atau rancangan atau blueprint dari suatu `object instance`. Terkadang agak membingungkan di javascript karena ada `object type` ada juga `object instance`. [Object Type](javascript/tipe-data.md#object) adalah variabel bertipe object yang telah dibahas sebelumnya. sedangkan `object instance` adalah hasil dari inisiasi suatu `class`.
+`class` adalah gambaran atau rancangan atau blueprint dari suatu `object instance`. Terkadang agak membingungkan di javascript karena ada `object type` ada juga `object instance`. [Object Type](tipe-data.md#object) adalah variabel bertipe object yang telah dibahas sebelumnya. sedangkan `object instance` adalah hasil dari inisiasi suatu `class`.
 
 ```javascript
 class Mobil {
@@ -94,7 +94,7 @@ mobilku.tambahRoda() // log: 5
 
 ## Method
 
-Method adalah sebuah aksi yang ada pada suatu `class`. Method berbentuk `function`. Method pada suatu class mempunyai *behaviour* yang sama dengan function. Ada baiknya teman-teman membaca terlebih dahulu bab tentang [function](javascript/function.md)
+Method adalah sebuah aksi yang ada pada suatu `class`. Method berbentuk `function`. Method pada suatu class mempunyai *behaviour* yang sama dengan function. Ada baiknya teman-teman membaca terlebih dahulu bab tentang [function](function.md)
 
 ```javascript
 class Mobil {

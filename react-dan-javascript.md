@@ -45,7 +45,7 @@ Sekilas mirip HTML, tapi JSX ditulis pada file javascript. Dan nantinya JSX ini 
 
 
 ## Functional
-React erat dengan `function`. Jadi sebelum belajar React, harus paham terlebih dahulu basic dari javascript dengan mengethaui cara menggunakan function, variable, method pada variable, pemanggilan variable dll. Untuk lebih detailnya akan dibahas pada [Section Javascript](javascript/hello.md). Berikut contoh bagaimana React sangat erat dengan `function` (Functional)
+React erat dengan `function`. Jadi sebelum belajar React, harus paham terlebih dahulu basic dari javascript dengan mengethaui cara menggunakan function, variable, method pada variable, pemanggilan variable dll. Untuk lebih detailnya akan dibahas pada [Section Javascript](hello.md). Berikut contoh bagaimana React sangat erat dengan `function` (Functional)
 
 ```jsx
 import React from 'react'

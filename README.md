@@ -38,7 +38,7 @@ Tidak hanya di klien, Javascript juga bisa dijalankan pada sisi server. Node JS 
 > "Satu Bahasa Untuk Semua...."
 
 ## Gimana? masih mau menunda belajar? 
-[Mulai Belajar Disini](javascript/hello-world.md)
+[Mulai Belajar Disini](https://bosnaufal.github.io/javascript-sabuk-putih/)
 
 ## Credits
 Ebook ini dibuat oleh **Muhammad Naufal Rabbani**. Sangat mengharapkan  pertanyaan, kritik dan saran. Silahkan drop email di [bosnaufalemail@gmail.com](mailto:bosnaufalemail@gmail.com) atau hubungi langsung di telegram [@BosNaufal](https://t.me/BosNaufal) atau [facebook](https://facebook.com/BosNaufalAccount)
